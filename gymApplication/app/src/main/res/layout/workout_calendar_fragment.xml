@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/workout_calendar_fragment">
+
+    <TextView
+        android:id="@+id/workoutCalendarHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/workout_calendar_header"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:textColor="@color/blue"
+        android:layout_margin="20dp"/>
+
+    <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mcv_calendarMode="week"
+        app:mcv_selectionColor="#00F"
+        android:layout_below="@+id/workoutCalendarHeader"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calendarView">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/workoutForResRecView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </ScrollView>
+
+
+
+
+
+</RelativeLayout>

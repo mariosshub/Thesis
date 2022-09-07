@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/workoutForRes"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gray_blue">
+
+    <TextView
+        android:id="@+id/workoutForResName"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Workout Name"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/lessonAvailableFromTo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:text="@string/lesson_availability_from_to"
+        android:layout_below="@id/workoutForResName"
+        android:layout_margin="5dp"/>
+</RelativeLayout>

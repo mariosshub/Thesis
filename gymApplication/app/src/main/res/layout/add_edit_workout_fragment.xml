@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/add_edit_workout">
+
+    <TextView
+        android:id="@+id/textHeaderAddWorkout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="@string/add_workout"
+        android:textColor="#3F51B5"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextWorkoutName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:maxLength="40"
+        android:hint="@string/workout_name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/textHeaderAddWorkout"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="@+id/textHeaderAddWorkout"
+        app:layout_constraintTop_toBottomOf="@+id/textHeaderAddWorkout"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/editTextCostPerDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="6"
+        android:maxLength="5"
+        android:hint="@string/edit_cost_per_day"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="@+id/editTextWorkoutName"
+        app:layout_constraintStart_toStartOf="@+id/editTextWorkoutName"
+        app:layout_constraintTop_toBottomOf="@+id/editTextWorkoutName"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/editTextWorkoutDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/add_description"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5"
+        app:layout_constraintEnd_toEndOf="@+id/maxPeople"
+        app:layout_constraintStart_toStartOf="@+id/maxPeople"
+        app:layout_constraintTop_toBottomOf="@+id/maxPeople"
+        app:layout_constraintVertical_bias="0.0"
+        android:importantForAutofill="no" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="602dp" />
+
+    <Button
+        android:id="@+id/addWorkoutBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/blue"
+        android:text="@string/add_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline5" />
+
+    <EditText
+        android:id="@+id/editTextCostPerWeek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="6"
+        android:maxLength="5"
+        android:hint="@string/edit_cost_per_week"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="@+id/editTextCostPerDay"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextCostPerDay"
+        app:layout_constraintTop_toBottomOf="@+id/editTextCostPerDay"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/editTextCostPerMonth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="6"
+        android:maxLength="5"
+        android:hint="@string/edit_cost_per_month"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="@+id/editTextCostPerWeek"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextCostPerWeek"
+        app:layout_constraintTop_toBottomOf="@+id/editTextCostPerWeek"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/editTextCostPerYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="6"
+        android:maxLength="6"
+        android:hint="@string/edit_cost_per_year"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="@+id/editTextCostPerMonth"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextCostPerMonth"
+        app:layout_constraintTop_toBottomOf="@+id/editTextCostPerMonth"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/maxPeople"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="6"
+        android:maxLength="2"
+        android:hint="@string/max_people"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@+id/editTextCostPerYear"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextCostPerYear"
+        app:layout_constraintTop_toBottomOf="@+id/editTextCostPerYear"
+        android:importantForAutofill="no" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

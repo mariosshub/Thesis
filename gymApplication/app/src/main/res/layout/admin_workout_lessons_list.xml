@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardWorkoutLessons"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="8dp"
+    android:layout_margin="5sp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/workoutName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Workout Name"
+            android:textSize="18sp"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:layout_margin="10dp"/>
+
+        <View
+            android:id="@id/verticalSpace"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_alignStart="@+id/workoutName"
+            android:layout_alignEnd="@id/addAvailability"
+            android:layout_below="@id/workoutName"
+            android:layout_margin="5dp"
+            android:background="@color/gray" />
+
+        <TextView
+            android:id="@+id/workoutCostPerDay"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/verticalSpace"
+            android:layout_marginStart="15dp"
+            android:text="@string/cost_per_day"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/workoutCostPerWeek"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/workoutCostPerDay"
+            android:layout_marginStart="15dp"
+            android:text="@string/cost_per_week"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/workoutCostPerMonth"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/workoutCostPerWeek"
+            android:layout_marginStart="15dp"
+            android:text="@string/cost_per_month"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/workoutCostPerYear"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/workoutCostPerMonth"
+            android:layout_marginStart="15dp"
+            android:text="@string/cost_per_year"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/workoutMaxSeats"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/workoutCostPerYear"
+            android:layout_marginStart="15dp"
+            android:text="@string/max_seats"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/workoutDescrText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/workout_description"
+            android:textSize="14sp"
+            android:layout_below="@id/workoutMaxSeats"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="15dp"/>
+
+        <TextView
+            android:id="@+id/workoutDescr"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/workoutDescrText"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="8dp"
+            android:text="Your description"
+            android:textAlignment="textStart"
+            android:textSize="14sp" />
+
+
+        <Button
+            android:id="@+id/editWorkoutBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:backgroundTint="@color/blue"
+            android:text="@string/edit_workout_btn"
+            android:layout_toEndOf="@id/workoutDescr"
+            android:layout_below="@id/addAvailability"
+            android:layout_marginStart="12dp"/>
+
+        <Button
+            android:id="@+id/addAvailability"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_below="@id/verticalSpace"
+            android:layout_marginStart="12dp"
+            android:layout_toEndOf="@+id/workoutDescr"
+            android:backgroundTint="@color/green"
+            android:text="@string/availability_btn" />
+
+
+
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>

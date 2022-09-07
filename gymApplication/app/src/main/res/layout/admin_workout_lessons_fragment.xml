@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/admin_workout_lessons">
+
+    <TextView
+        android:id="@+id/workoutHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="@string/workout_lessons_header"
+        android:textAlignment="center"
+        android:textColor="#2929a3"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/addWorkoutLesson"
+        android:layout_below="@id/workoutHeader"
+        android:layout_marginBottom="5dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/workoutLessonsRecView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            />
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/addWorkoutLesson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/round_gray"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:text="@string/add_btn"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

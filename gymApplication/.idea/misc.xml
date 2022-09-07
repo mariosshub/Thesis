@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/marios/Documents/ptixiaki/gymApplication/app/src/main/res/drawable/border.xml" value="0.2703125" />
+        <entry key="..\:/Users/marios/Documents/ptixiaki/gymApplication/app/src/main/res/drawable/ic_add.xml" value="0.2703125" />
+        <entry key="..\:/Users/marios/Documents/ptixiaki/gymApplication/app/src/main/res/drawable/ic_calendar.xml" value="0.2703125" />
+        <entry key="..\:/Users/marios/Documents/ptixiaki/gymApplication/app/src/main/res/drawable/ic_launcher_background.xml" value="0.163" />
+        <entry key="..\:/Users/marios/Documents/ptixiaki/gymApplication/app/src/main/res/drawable/ic_profile.xml" value="0.235" />
+        <entry key="..\:/Users/marios/Documents/ptixiaki/gymApplication/app/src/main/res/drawable/ic_reservations.xml" value="0.2703125" />
+        <entry key="..\:/Users/marios/Documents/ptixiaki/gymApplication/app/src/main/res/drawable/login_box.xml" value="0.197" />
+        <entry key="..\:/Users/marios/Documents/ptixiaki/gymApplication/app/src/main/res/drawable/login_textbox.xml" value="0.197" />
+        <entry key="..\:/Users/marios/Documents/ptixiaki/gymApplication/app/src/main/res/drawable/round_blue.xml" value="0.2703125" />
+        <entry key="..\:/Users/marios/Documents/ptixiaki/gymApplication/app/src/main/res/drawable/round_gray.xml" value="0.2703125" />
+        <entry key="..\:/Users/marios/Documents/ptixiaki/gymApplication/app/src/main/res/drawable/round_white.xml" value="0.1765" />
+        <entry key="..\:/Users/marios/Documents/ptixiaki/gymApplication/app/src/main/res/drawable/signup_box.xml" value="0.197" />
+        <entry key="..\:/Users/marios/Documents/ptixiaki/gymApplication/app/src/main/res/layout/activity_edit_profile.xml" value="0.264" />
+        <entry key="..\:/Users/marios/Documents/ptixiaki/gymApplication/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/marios/Documents/ptixiaki/gymApplication/app/src/main/res/layout/activity_menu.xml" value="0.264" />
+        <entry key="..\:/Users/marios/Documents/ptixiaki/gymApplication/app/src/main/res/layout/activity_signup.xml" value="0.25" />
+        <entry key="..\:/Users/marios/Documents/ptixiaki/gymApplication/app/src/main/res/layout/add_edit_sub_dialog.xml" value="0.2" />
+        <entry key="..\:/Users/marios/Documents/ptixiaki/gymApplication/app/src/main/res/layout/add_edit_workout_fragment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/marios/Documents/ptixiaki/gymApplication/app/src/main/res/layout/add_sub_dialog.xml" value="0.4" />
+        <entry key="..\:/Users/marios/Documents/ptixiaki/gymApplication/app/src/main/res/layout/add_workout_fragment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/marios/Documents/ptixiaki/gymApplication/app/src/main/res/layout/admin_workout_lessons_fragment.xml" value="0.264" />
+        <entry key="..\:/Users/marios/Documents/ptixiaki/gymApplication/app/src/main/res/layout/admin_workout_lessons_list.xml" value="0.4" />
+        <entry key="..\:/Users/marios/Documents/ptixiaki/gymApplication/app/src/main/res/layout/all_reservations_list.xml" value="0.4" />
+        <entry key="..\:/Users/marios/Documents/ptixiaki/gymApplication/app/src/main/res/layout/edit_profile_fragment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/marios/Documents/ptixiaki/gymApplication/app/src/main/res/layout/fragment_profile.xml" value="0.4" />
+        <entry key="..\:/Users/marios/Documents/ptixiaki/gymApplication/app/src/main/res/layout/nav_header.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/marios/Documents/ptixiaki/gymApplication/app/src/main/res/layout/popular_hours_fragment.xml" value="0.264" />
+        <entry key="..\:/Users/marios/Documents/ptixiaki/gymApplication/app/src/main/res/layout/reervations_statistics.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/marios/Documents/ptixiaki/gymApplication/app/src/main/res/layout/reservation_fragment.xml" value="0.4" />
+        <entry key="..\:/Users/marios/Documents/ptixiaki/gymApplication/app/src/main/res/layout/reservations_statistics.xml" value="0.264" />
+        <entry key="..\:/Users/marios/Documents/ptixiaki/gymApplication/app/src/main/res/layout/show_all_reservations_fragment.xml" value="0.4" />
+        <entry key="..\:/Users/marios/Documents/ptixiaki/gymApplication/app/src/main/res/layout/statistics_fragment.xml" value="0.264" />
+        <entry key="..\:/Users/marios/Documents/ptixiaki/gymApplication/app/src/main/res/layout/statistics_sub.xml" value="0.264" />
+        <entry key="..\:/Users/marios/Documents/ptixiaki/gymApplication/app/src/main/res/layout/statistics_sub_list.xml" value="0.4" />
+        <entry key="..\:/Users/marios/Documents/ptixiaki/gymApplication/app/src/main/res/layout/subscription_lesson_row.xml" value="0.4" />
+        <entry key="..\:/Users/marios/Documents/ptixiaki/gymApplication/app/src/main/res/layout/subscriptions_fragment.xml" value="0.264" />
+        <entry key="..\:/Users/marios/Documents/ptixiaki/gymApplication/app/src/main/res/layout/subscriptions_list.xml" value="0.4" />
+        <entry key="..\:/Users/marios/Documents/ptixiaki/gymApplication/app/src/main/res/layout/workout_availability_fragment.xml" value="0.264" />
+        <entry key="..\:/Users/marios/Documents/ptixiaki/gymApplication/app/src/main/res/layout/workout_availability_list.xml" value="0.4" />
+        <entry key="..\:/Users/marios/Documents/ptixiaki/gymApplication/app/src/main/res/layout/workout_availability_row.xml" value="0.264" />
+        <entry key="..\:/Users/marios/Documents/ptixiaki/gymApplication/app/src/main/res/layout/workout_calendar_fragment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/marios/Documents/ptixiaki/gymApplication/app/src/main/res/layout/workouts_for_reservation_list.xml" value="0.4" />
+        <entry key="..\:/Users/marios/Documents/ptixiaki/gymApplication/app/src/main/res/menu/admin_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/marios/Documents/ptixiaki/gymApplication/app/src/main/res/menu/customer_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/marios/Documents/ptixiaki/gymApplication/app/src/main/res/menu/drawer_menu.xml" value="0.264" />
+        <entry key="..\:/Users/marios/Documents/ptixiaki/gymApplication/app/src/main/res/menu/search_menu.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

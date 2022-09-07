@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/edit_profile"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/textViewEditHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="@string/profile_edit_header"
+        android:textColor="#3F51B5"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextEditName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/textViewEditHeader"
+        app:layout_constraintStart_toStartOf="@+id/textViewEditHeader"
+        app:layout_constraintTop_toBottomOf="@+id/textViewEditHeader"
+        android:autofillHints="name" />
+
+    <EditText
+        android:id="@+id/editTextEditSurname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="@string/surname"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/editTextEditName"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextEditName"
+        app:layout_constraintTop_toBottomOf="@+id/editTextEditName"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/editTextEditEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="@+id/editTextEditSurname"
+        app:layout_constraintStart_toStartOf="@+id/editTextEditSurname"
+        app:layout_constraintTop_toBottomOf="@+id/editTextEditSurname"
+        android:autofillHints="emailAddress" />
+
+    <EditText
+        android:id="@+id/editTextEditPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="@string/phone"
+        android:inputType="phone"
+        android:maxLength="10"
+        app:layout_constraintEnd_toEndOf="@+id/editTextEditEmail"
+        app:layout_constraintStart_toStartOf="@+id/editTextEditEmail"
+        app:layout_constraintTop_toBottomOf="@+id/editTextEditEmail"
+        android:autofillHints="phone" />
+
+    <Button
+        android:id="@+id/buttonEditProfile"
+        android:text="@string/edit_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="@+id/editTextEditPhone"
+        app:layout_constraintStart_toStartOf="@+id/editTextEditPhone"
+        app:layout_constraintTop_toBottomOf="@+id/editTextEditPhone" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

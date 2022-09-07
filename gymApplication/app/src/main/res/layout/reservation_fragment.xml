@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/reservation_fragment">
+
+
+    <TextView
+        android:id="@+id/reservationsHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="15dp"
+        android:layout_margin="20dp"
+        android:layout_marginBottom="15dp"
+        android:text="@string/make_reservation"
+        android:textColor="@color/blue"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/reservationsWorkout"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Workout Name"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:layout_below="@id/reservationsHeader"/>
+
+    <TextView
+        android:id="@+id/reservationsDay"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Day"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:layout_margin="10dp"
+        android:layout_below="@id/reservationsWorkout"/>
+
+    <TextView
+        android:id="@+id/reservationsAvailability"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reservationsWorkout"
+        android:layout_alignTop="@+id/reservationsWorkout"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@+id/reservationsWorkout"
+        android:text="Available: 60/60"
+        android:textSize="14sp" />
+
+    <ProgressBar
+        android:id="@+id/reservationsWorkoutAvailabilityBar"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_below="@+id/reservationsAvailability"
+        android:layout_alignStart="@+id/reservationsAvailability"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/reservationsSelectTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reservations_select_time"
+        android:layout_below="@id/reservationsDay"
+        android:layout_alignStart="@+id/reservationsDay"
+        android:layout_marginTop="10dp"/>
+
+    <Spinner
+        android:id="@+id/reservationsTimeSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/reservationsSelectTime"
+        android:layout_alignTop="@+id/reservationsSelectTime"
+        android:layout_marginStart="5dp"/>
+
+    <TextView
+        android:id="@+id/reservationsStartEndTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/reservationsSelectTime"
+        android:layout_alignStart="@+id/reservationsSelectTime"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/reservations_start_end_time" />
+
+    <Button
+        android:id="@+id/reservationsConfirmBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reservations_confirm"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/reservationsStartEndTime"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>

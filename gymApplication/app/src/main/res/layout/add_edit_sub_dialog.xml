@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/add_edit_sub_dialog">
+
+    <EditText
+        android:id="@+id/addSubEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:hint="@string/customers_email_sub"
+        android:textSize="16sp"
+        android:autofillHints="emailAddress"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/selectWorkout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addSubEmail"
+        android:layout_alignStart="@+id/addSubEmail"
+        android:text="@string/select_workout_sub"
+        android:textSize="16sp" />
+
+    <Spinner
+        android:id="@+id/addSubWorkouts"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/selectWorkout"
+        android:layout_marginLeft="5dp"
+        android:layout_toEndOf="@+id/selectWorkout" />
+
+    <TextView
+        android:id="@+id/selectCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_cost_sub"
+        android:textSize="16sp"
+        android:layout_below="@+id/selectWorkout"
+        android:layout_alignStart="@+id/addSubEmail"
+        android:layout_marginTop="5dp"/>
+
+    <Spinner
+        android:id="@+id/addSubCost"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/selectCost"
+        android:layout_marginLeft="5dp"
+        android:layout_toEndOf="@+id/selectCost" />
+
+    <EditText
+        android:id="@+id/addSubAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/amount_sub"
+        android:textSize="16sp"
+        android:layout_below="@+id/selectCost"
+        android:layout_alignStart="@+id/addSubEmail"
+        android:importantForAutofill="no" />
+
+</RelativeLayout>

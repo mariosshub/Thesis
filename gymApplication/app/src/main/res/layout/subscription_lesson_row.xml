@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border">
+
+    <TextView
+        android:id="@+id/subLessonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lesson"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_margin="2dp"/>
+
+    <TextView
+        android:id="@+id/subLessonExpired"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sub_lesson_expired"
+        android:textSize="14sp"
+        android:textColor="@color/red"
+        android:layout_toEndOf="@+id/subLessonName"
+        android:layout_marginStart="30dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/subLessonCreatedAt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sub_created_at"
+        android:textSize="14sp"
+        android:layout_below="@+id/subLessonName"
+        android:layout_alignStart="@+id/subLessonName"/>
+
+    <TextView
+        android:id="@+id/subLessonExpiresAt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/subLessonName"
+        android:layout_marginStart="15dp"
+        android:layout_toEndOf="@+id/subLessonCreatedAt"
+        android:text="@string/sub_expires_at"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/subLessonCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sub_lesson_cost"
+        android:textSize="14sp"
+        android:layout_below="@+id/subLessonCreatedAt"
+        android:layout_alignStart="@+id/subLessonCreatedAt"
+        android:layout_marginTop="2dp"/>
+
+    <TextView
+        android:id="@+id/subLessonEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:background="@drawable/round_blue"
+        android:text="@string/update_sub"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:layout_below="@+id/subLessonCost"
+        android:layout_marginTop="2dp"
+        android:visibility="gone"/>
+
+</RelativeLayout>

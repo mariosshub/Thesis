@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border">
+
+    <TextView
+        android:id="@+id/customerSubName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Customer's Subscription"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_margin="15dp"/>
+
+    <TextView
+        android:id="@+id/subCostText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/total_sub_cost"
+        android:textSize="14sp"
+        android:layout_below="@+id/customerSubName"
+        android:layout_alignStart="@+id/customerSubName"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/subCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="120$"
+        android:textSize="14sp"
+        android:layout_below="@+id/customerSubName"
+        android:layout_toEndOf="@+id/subCostText"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:textColor="@color/blue"/>
+
+    <TextView
+        android:id="@+id/subWorkoutLessonsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/workout_lessons_sub"
+        android:textSize="14sp"
+        android:layout_below="@+id/subCostText"
+        android:layout_alignStart="@+id/subCostText"
+        android:layout_marginTop="5dp"/>
+
+    <LinearLayout
+        android:id="@+id/layout_lessons_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@+id/subWorkoutLessonsText"
+        android:layout_alignStart="@id/subWorkoutLessonsText"
+        android:orientation="vertical"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/allResLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="8dp">
+
+    <TextView
+        android:id="@+id/allResDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="date"
+        android:layout_margin="3dp" />
+
+    <TextView
+        android:id="@+id/allResDayOfWeek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Day"
+        android:layout_margin="3dp" />
+
+    <TextView
+        android:id="@+id/allResHour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hour"
+        android:layout_margin="3dp" />
+
+    <TextView
+        android:id="@+id/allResLessonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lesson"
+        android:layout_margin="3dp" />
+
+    <TextView
+        android:id="@+id/allResStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="status"
+        android:layout_margin="3dp"/>
+
+    <TextView
+        android:id="@+id/allResCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:textStyle="bold"
+        android:textColor="@color/blue"
+        android:layout_margin="5dp"
+        android:visibility="gone"/>
+
+</LinearLayout>
